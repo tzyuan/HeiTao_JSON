@@ -1,0 +1,36 @@
+
+
+dorado.util.Resource.append("dorado.data",
+{
+	"GetDataDuringLoading":"Can not read data with sync mode during async loading.",
+	"EntityDeleted":"Entity is already deleted.",
+	"NoDataPipe":"No DataPipe defined.",
+	"InvalidPage":"Invalid page \"{0}\".",
+	"InvalidEntityToList":"Entity not belongs to this EntityList.",
+	"ErrorContentTooLong":"Text too long, it should be shorter than {0}.",
+	"EntityPropertyExpected":"\"{0}\" is not a Entity property.",
+	"ErrorBadFormat":"Bad format string \"{0}\"..",
+	"DataProviderTaskIndicator":"Loading data...",
+	"UnknownProperty":"Unknown property \"{0}\".",
+	"ErrorNumberOutOfRangeL":"Number too less.",
+	"UnknownMapKey":"Unknown Map Key \"{0}\".",
+	"ErrorContentRequired":"Content required.",
+	"ValueNotFree":"The value {0} already belongs another Entity or EntityList.",
+	"RepositoryUndefined":"\"dataTypeRepository\" undefined.",
+	"EntityListPropertyExpected":"\"{0}\" is not a Entity property.",
+	"ErrorNumberOutOfRangeG":"Number too great.",
+	"TooMoreResult":"More than one result returned by server.",
+	"DataResolverTaskIndicator":"Resolving data...",
+	"InvalidEntityToPage":"\"Entity\" not belongs to page {0}.",
+	"ErrorNumberTooLess":"Number too less, it should be greater than{0} {1}.",
+	"NoCurrent":"No current Entity found in EntityList.",
+	"ErrorContentTooShort":"Text too short, it should be longer than {0}.",
+	"BadDateFormat":"Bad date format \"{0}\".",
+	"ErrorNumberTooGreat":"Number too great, it should be less than{0} {1}.",
+	"ErrorOrEqualTo":"or equals to",
+	"DataProviderUndefined":"No DataProvider defined.",
+	"DataTypeLoadFailed":"Loading DataType \"{0}\" failed.",
+	"SubmitWhileValidatorExecuting":"Can not submit data while asynchronous validator executing.",
+	"ErrorValueOutOfEnumRange":"Value out of enum range."
+}
+);

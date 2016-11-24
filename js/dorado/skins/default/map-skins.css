@@ -1,0 +1,51 @@
+/* Appearance */
+
+.d-map {
+	
+}
+
+.d-map .close {
+	background: url(map-close.png);
+	zoom: 1;
+	position: absolute;
+	cursor: pointer;
+	right: 3px;
+	top: 3px;
+	width: 16px;
+	height: 16px;
+}
+
+.d-map .close-hover {
+	background: url(map-close-hover.png);
+}
+
+.d-map .close-click {
+	background: url(map-close-hover.png);
+}
+
+.d-map .d-submap {
+	background-color: white;
+}
+
+.d-map .mapControls {
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	width: 29px;
+	cursor: pointer;
+}
+
+.d-map .mapControls .out {
+	background: url(zoom-out.png) no-repeat center top;
+	display: block;
+	height: 27px;
+	width: 29px;
+}
+
+.d-map .mapControls .in {
+	background: url(zoom-in.png) no-repeat center top;
+	display: block;
+	height: 26px;
+	width: 29px;
+}
+

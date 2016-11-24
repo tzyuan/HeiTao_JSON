@@ -1,0 +1,75 @@
+/* Appearance */
+
+/*
+ * This file is part of Dorado 7.x (http://dorado7.bsdn.org).
+ * 
+ * Copyright (c) 2002-2012 BSTEK Corp. All rights reserved.
+ * 
+ * This file is dual-licensed under the AGPLv3 (http://www.gnu.org/licenses/agpl-3.0.html) 
+ * and BSDN commercial (http://www.bsdn.org/licenses) licenses.
+ * 
+ * If you are unsure which license is appropriate for your use, please contact the sales department
+ * at http://www.bstek.com/contact.
+ */
+.d-floating {
+  position: absolute;
+  left: -99999px;
+  top: -99999px;
+}
+.d-relative {
+  position: relative;
+}
+.d-fix-text-align {
+  text-align: left;
+}
+.smart .row, .smart .block {
+  display: block;
+}
+.smart .pull-left {
+  float: left;
+}
+.smart .pull-right {
+  float: right;
+}
+.smart .clearfix {
+}
+.smart .clearfix:before, .smart .clearfix:after {
+  display: table;
+  content: "";
+}
+.smart .clearfix:after {
+  clear: both;
+}
+
+
+/* Appearance */
+
+/*
+ * This file is part of Dorado 7.x (http://dorado7.bsdn.org).
+ * 
+ * Copyright (c) 2002-2012 BSTEK Corp. All rights reserved.
+ * 
+ * This file is dual-licensed under the AGPLv3 (http://www.gnu.org/licenses/agpl-3.0.html) 
+ * and BSDN commercial (http://www.bsdn.org/licenses) licenses.
+ * 
+ * If you are unsure which license is appropriate for your use, please contact the sales department
+ * at http://www.bstek.com/contact.
+ */
+.d-anchor-layout {
+  position: relative;
+}
+.d-dock-layout {
+  position: relative;
+  overflow: hidden;
+}
+.d-form-layout {
+  table-layout: fixed;
+}
+.d-form-layout-region {
+  height: 100%;
+}
+.d-hbox-layout {
+  display: inline-block;
+}
+
+

@@ -1,0 +1,57 @@
+
+
+dorado.util.Resource.append("dorado.baseWidget",
+{
+	"MinutesUnit":"\u5206",
+	"ExceptionDialogDetail":"\u8BE6\u7EC6\u4FE1\u606F...",
+	"MessageBoxButtonCancel":"\u53D6\u6D88",
+	"ExceptionDialogDetailMessage":"\u5F02\u5E38\u6D88\u606F",
+	"SecondsUnit":"\u79D2",
+	"ExceptionDialogDetailCallStack":"\u8C03\u7528\u5806\u6808\u4FE1\u606F",
+	"NotifyTipDefaultCaption":"\u7CFB\u7EDF\u901A\u77E5",
+	"DataPilotDeleteConfirm":"\u786E\u8BA4\u8981\u5220\u9664\u5F53\u524D\u8BB0\u5F55\u5417\uFF1F",
+	"InvalidSpinnerPattern":"\u65E0\u6548\u7684Pattern\u8868\u8FBE\u5F0F\"{0}\"\u3002",
+	"MessageBoxDefaultTitle":"\u7CFB\u7EDF",
+	"DataPilotCancel":"\u53D6\u6D88",
+	"DataPilotNextPage":"\u540E\u9875",
+	"DataPilotInsert":"\u6DFB\u52A0",
+	"MessageBoxButtonNo":"\u5426",
+	"MessageBoxButtonOK":"\u786E\u5B9A",
+	"DateUnit":"\u65E5",
+	"NumberRangeInvalid":"\u6570\u503C\u4E0D\u5728\u8303\u56F4\u5185\uFF0C\u6570\u503C\u7684\u8303\u56F4\u662F\uFF1A[{0}, {1}]\uFF0C\u4F60\u8BBE\u7F6E\u7684\u662F {2}",
+	"DataPilotLastPage":"\u672B\u9875",
+	"DataPilotFirstPage":"\u9996\u9875",
+	"ExceptionDialogDetailSystemStack":"\u7CFB\u7EDF\u5806\u6808\u4FE1\u606F",
+	"DataPilotInfo":"\u7B2C{0}\u9875\/\u5171{1}\u9875({2}\u7B14\u8BB0\u5F55)",
+	"TabUndefined":"Tab\u4E0D\u80FD\u4E3A\u7A7A!",
+	"NumberFormatInvalid":"\u6570\u503C\u683C\u5F0F\u4E0D\u6B63\u786E: {0}",
+	"ExceptionDialogDetailTitle":"\u5F02\u5E38\u8BE6\u7EC6\u4FE1\u606F",
+	"HoursUnit":"\u65F6",
+	"YearUnit":"\u5E74",
+	"MessageBoxButtonYes":"\u662F",
+	"DataPilotGotoPagePrefix":"",
+	"DataPilotDelete":"\u5220\u9664",
+	"DataPilotPreviousPage":"\u524D\u9875",
+	"ExceptionDialogOK":"\u786E\u5B9A",
+	"MonthUnit":"\u6708",
+	"ExceptionDialogTitle":"\u5F02\u5E38\u6D88\u606F",
+	"DataPilotPageSize":"\u6BCF\u9875\u8BB0\u5F55\u6570:",
+	"DataPilotGotoPageSuffix":"",
+	"ExceptionDialogDetailRemoteStack":"\u670D\u52A1\u7AEF\u5806\u6808\u4FE1\u606F",
+	"DataPilotCancelConfirm":"\u786E\u8BA4\u8981\u53D6\u6D88\u5BF9\u5F53\u524D\u8BB0\u5F55\u7684\u4FEE\u6539\u5417\uFF1F"
+}
+);dorado.util.Resource.append("dorado.form",
+{
+	"InputFilterCriteriaTip":"\u8BF7\u8F93\u5165\u8FC7\u6EE4\u6761\u4EF6..."
+}
+);dorado.util.Resource.append("dorado.list",
+{
+	"ReleaseToRefresh":"\u677E\u5F00\u624B\u6307\u5237\u65B0\u6570\u636E",
+	"LoadingMore":"\u6B63\u5728\u88C5\u8F7D...",
+	"NoMoreDataToLoad":"\u6CA1\u6709\u6570\u636E\u53EF\u4EE5\u52A0\u8F7D\u4E86",
+	"PullRefreshing":"\u6B63\u5728\u5237\u65B0...",
+	"PullToRefresh":"\u4E0B\u62C9\u5217\u8868\u6FC0\u6D3B\u5237\u65B0",
+	"ButtonDelete":"\u5220\u9664",
+	"PressToLoadMore":"\u70B9\u51FB\u52A0\u8F7D\u4E0B\u4E00\u9875"
+}
+);

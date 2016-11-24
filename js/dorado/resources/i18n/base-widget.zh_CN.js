@@ -1,0 +1,36 @@
+
+
+dorado.util.Resource.append("dorado.baseWidget",
+{
+	"LongTask.resuming":"\u6B63\u5728\u6062\u590D",
+	"SubmitValidatingData":"\u7531\u4E8E\u4ECD\u6709{0}\u4E2A\u5F02\u6B65\u7684\u6821\u9A8C\u8FC7\u7A0B\u6B63\u5728\u6267\u884C\uFF0C\u76EE\u524D\u65E0\u6CD5\u63D0\u4EA4\u6570\u636E\u3002\u8BF7\u5728\u7A0D\u540E\u91CD\u8BD5\u3002",
+	"ShowConfigUndefined":"Show\u65B9\u6CD5\u7684\u914D\u7F6E\u4FE1\u606F\u4E0D\u80FD\u4E3A\u7A7A!",
+	"SubmitValidationDetailMessage":"\u6821\u9A8C\u4FE1\u606F",
+	"LongTask.aborting":"\u6B63\u5728\u53D6\u6D88",
+	"ShowSubmitValidationDetail":"\u67E5\u770B\u8BE6\u60C5...",
+	"LongTask.suspended":"\u6302\u8D77",
+	"SubmitValidationDetail":"\u6821\u9A8C\u4FE1\u606F\u8BE6\u60C5",
+	"CardControlUndefined":"\u5B50\u7EC4\u4EF6\u4E0D\u5141\u8BB8\u4E3A\u7A7A!",
+	"SubmitValidationDetailState":"\u7C7B\u578B",
+	"SubmitInvalidData":"\u4E0D\u80FD\u63D0\u4EA4\u5C1A\u672A\u901A\u8FC7\u6821\u9A8C\u7684\u6570\u636E\uFF01",
+	"SubmitValidationSummary":"\u76EE\u524D\u4ECD\u6709{0}\u4E2A\u6821\u9A8C\u9519\u8BEF\u548C{1}\u4E2A\u6821\u9A8C\u8B66\u544A\u3002",
+	"ItemNotInGroup":"\u7ED9\u5B9A\u7684\u83DC\u5355\u9879\u4E0D\u5728\u83DC\u5355\u4E2D!",
+	"LongTask.error":"\u51FA\u9519",
+	"SubmitingData":"\u6B63\u5728\u5904\u7406\u6570\u636E...",
+	"NoDataToSubmit":"\u6CA1\u6709\u6570\u636E\u53EF\u4EE5\u63D0\u4EA4!",
+	"ErrorCallDisabledAction":"\u4E0D\u80FD\u6267\u884C\u5904\u4E8E\u7981\u7528\u72B6\u6001\u7684Action\"{0}\"\uFF01",
+	"SubmitValidationDetailTip":"\u53CC\u51FB\u4E0B\u9762\u7684\u6821\u9A8C\u4FE1\u606F\u4EE5\u5B9A\u4F4D\u81F3\u5B58\u5728\u95EE\u9898\u7684\u6570\u636E\u5B9E\u4F53\u3002",
+	"LongTask.suspending":"\u6B63\u5728\u6302\u8D77",
+	"LongTask":"\u540E\u53F0\u4EFB\u52A1",
+	"SubmitValidationDetailProperty":"\u5C5E\u6027\u540D",
+	"ErrorCallSysDisabledAction":"Action\"{0}\"\u4E0D\u80FD\u88AB\u8FDE\u7EED\u91CD\u590D\u7684\u8C03\u7528\uFF01",
+	"LongTask.waiting":"\u7B49\u5F85",
+	"LongTask.terminated":"\u5DF2\u5B8C\u6210",
+	"LongTask.running":"\u8FD0\u884C",
+	"LongTask.aborted":"\u5DF2\u4E2D\u6B62"
+}
+);dorado.util.Resource.append("dorado.form",
+{
+	"InputTextOutOfMapping":"\u8F93\u5165\u7684\u6587\u672C\u4E0D\u5728\u53EF\u9009\u7684\u8303\u56F4\u4E2D!"
+}
+);

@@ -1,0 +1,179 @@
+/* Appearance */
+
+.d-criteria-builder {
+    border: 1px #A1A1A1 solid;	
+}
+
+.d-criteria-builder .d-junction {
+	border: 1px gray solid;
+	border-radius: 15px;
+	width: 62px;
+	height: 28px;
+	line-height: 28px;
+	margin-left: -31px;
+	margin-top: -14px;
+	background: white;
+}
+
+.d-criteria-builder .d-junction .label {
+	margin-right: 8px;
+}
+
+.d-criteria-builder .d-junction .menu-button {
+	border: 1px white solid;
+	width: 15px;
+	height: 16px;
+	background: url(criteria-builder/menu-indicator.gif) no-repeat;
+	position: absolute;
+	top: 5px;
+	right: 4px;
+}
+
+.d-criteria-builder .d-junction-focused {
+	border-color: black;
+	background: #F4F4F4;
+}
+
+.d-criteria-builder .d-junction-focused .menu-button {
+	border-color: #F4F4F4;
+}
+
+.d-criteria-builder .d-junction .menu-button-hover {
+	border-color: lightgray;
+	border-radius: 3px;
+}
+
+.d-criteria-builder .dragging-over {
+	border-color: gray;
+	background: #F0F0F0;
+}
+
+.d-criteria-builder .d-criterion {
+	border: 1px lightgray solid;
+	border-radius: 5px;
+	width: 315px;
+	padding: 4px;
+}
+
+.d-criteria-builder .d-criterion .delete-button {
+	width: 20px;
+	height: 20px;
+	background: url(common/icons.gif) -140px 0;
+}
+
+.d-criteria-builder .d-criterion-focused {
+	border-color: gray;
+	background: #F4F4F4;
+}
+
+.d-criteria-builder .d-type-button {
+	border: 1px white solid;
+	border-radius: 3px;
+	width: 16px;
+	height: 16px;
+}
+
+.d-criteria-builder .d-type-button-hover {
+	border-color: lightgray;
+}
+
+.d-criteria-builder .d-value {
+	background: url(criteria-builder/value.gif) no-repeat;
+}
+
+.d-criteria-builder .d-property {
+	background: url(criteria-builder/property.gif) no-repeat;
+}
+
+.d-criteria-builder .d-expression {
+	background: url(criteria-builder/expression.gif) no-repeat;
+}
+
+.d-criteria-builder .d-orders {
+	border-width: 1px;
+	border-color: lightgray;
+	border-style: solid;
+	border-radius: 5px;
+	height: 36px;
+	padding: 4px;
+	margin-left: 16px;
+}
+
+.d-criteria-builder .d-orders-focused {
+	border-color: gray;
+	background: #F4F4F4;
+}
+
+.d-criteria-builder .d-orders .label {
+	padding-left: 10px;
+	padding-right: 8px;
+}
+
+.d-criteria-builder .d-orders .editor-container {
+	padding: 0 8px;
+}
+
+.d-criteria-builder .d-orders .orders-container {
+	padding: 0;
+}
+
+.d-ie6 .d-criteria-builder .d-orders .orders-container {
+	padding-top: 4px;
+}
+
+.d-ie6 .d-criteria-builder .d-orders .editor-container {
+	padding-top: 7px;
+}
+
+.d-criteria-builder .d-order {
+	border: 1px #B0B0B0 solid;
+	border-radius: 3px;
+	padding: 1px 6px;
+	margin: 0 2px -2px 2px;
+	background: white;
+}
+
+.d-ie6 .d-criteria-builder .d-order {
+	margin-top: -4px;
+}
+
+.d-ie6 .d-criteria-builder .d-order .property {
+	margin-top: 4px;
+}
+
+.d-criteria-builder .d-order .type-button {
+	width: 20px;
+	height: 20px;
+	background: url(common/icons.gif) -281px -181px;
+}
+
+.d-criteria-builder .d-order .icon-asc {
+	background: url(common/icons.gif) -281px -181px;
+}
+
+.d-criteria-builder .d-order .icon-desc {
+	background: url(common/icons.gif) -301px -181px;
+}
+
+.d-criteria-builder .d-order .delete-button {
+	width: 20px;
+	height: 20px;
+	background: url(common/icons.gif) -140px 0;
+}
+
+.d-criteria-builder .empty-tip {
+	border: 2px #A0A0A0 dotted;
+	border-radius: 5px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 58px;
+	margin-top: -21px;
+	padding: 4px 12px 4px 32px;
+	background: white;
+	white-space: nowrap;
+	font-size: 11pt;
+	font-style: italic;
+	color: #A0A0A0;
+	background: url(criteria-builder/left.gif) 8px 9px no-repeat;
+}
+

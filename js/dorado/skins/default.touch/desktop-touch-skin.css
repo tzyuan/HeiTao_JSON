@@ -1,0 +1,91 @@
+/* Appearance */
+
+/*
+ * This file is part of Dorado 7.x (http://dorado7.bsdn.org).
+ *
+ * Copyright (c) 2002-2012 BSTEK Corp. All rights reserved.
+ *
+ * This file is dual-licensed under the AGPLv3 (http://www.gnu.org/licenses/agpl-3.0.html)
+ * and BSDN commercial (http://www.bsdn.org/licenses) licenses.
+ *
+ * If you are unsure which license is appropriate for your use, please contact the sales department
+ * at http://www.bstek.com/contact.
+ */
+.t-desktop {
+  background: transparent no-repeat center center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.t-desktop .shortcut-place-holder {
+  position: absolute;
+  border: 1px solid #15a4fa;
+  opacity: 0.005;
+  filter: alpha(opacity=0.5);
+  display: none;
+  padding-top: 6px;
+}
+.t-desktop .shortcut-place-holder-small {
+  width: 59px;
+  height: 69px;
+}
+.t-desktop .shortcut-place-holder-medium {
+  width: 75px;
+  height: 85px;
+}
+.t-desktop .shortcut-place-holder-big {
+  width: 91px;
+  height: 101px;
+}
+.t-desktop .t-shortcut {
+  position: absolute;
+  display: block;
+  line-height: 16px;
+  text-align: center;
+  overflow: visible;
+  cursor: pointer;
+}
+.t-desktop .t-shortcut .icon {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  display: inline-block;
+}
+.t-desktop .t-shortcut .caption {
+  display: block;
+  word-break: break-all;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.t-desktop .t-shortcut-small-icon {
+  width: 48px;
+  height: 64px;
+}
+.t-desktop .t-shortcut-small-icon .icon {
+  width: 32px;
+  height: 32px;
+}
+.t-desktop .t-shortcut-medium-icon {
+  width: 62px;
+  height: 78px;
+}
+.t-desktop .t-shortcut-medium-icon .icon {
+  width: 48px;
+  height: 48px;
+}
+.t-desktop .t-shortcut-big-icon {
+  width: 80px;
+  height: 96px;
+}
+.t-desktop .t-shortcut-big-icon .icon {
+  width: 64px;
+  height: 64px;
+}
+.t-desktop .t-shortcut:active {
+  color: #01649e;
+  background-color: #15a4fa;
+  border-radius: 3px;
+}
+
+

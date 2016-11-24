@@ -1,0 +1,17 @@
+
+
+dorado.util.Resource.append("dorado.criteriaBuilder",
+{
+	"TypeValue":"\u503C",
+	"TypeProperty":"\u5C5E\u6027",
+	"EmptyTip":"\u8BF7\u5355\u51FB\u5DE6\u4FA7\u7684\u5BF9\u8C61\u5F00\u59CB\u586B\u52A0\u67E5\u8BE2\u6761\u4EF6...",
+	"TypeExpression":"\u8868\u8FBE\u5F0F",
+	"AddCriterion":"\u6DFB\u52A0\u6761\u4EF6",
+	"CriteriaValidateError":"\u5F53\u524D\u67E5\u8BE2\u6761\u4EF6\u5C1A\u672A\u901A\u8FC7\u6821\u9A8C\uFF01",
+	"Orders":"\u6392\u5E8F: ",
+	"ConfirmDeleteJunction":"\u786E\u5B9A\u8981\u5220\u9664\u6B64\u8054\u5408\u6761\u4EF6\u53CA\u5176\u4E0B\u5C5E\u7684\u6240\u6709\u5B50\u6761\u4EF6\u5417\uFF1F",
+	"OrdersUndefined":"(\u672A\u5B9A\u4E49)",
+	"AddJunction":"\u6DFB\u52A0\u8054\u5408\u6761\u4EF6",
+	"Delete":"\u5220\u9664"
+}
+);
