@@ -10,22 +10,27 @@
     $import("entypo-support,widget,base-widget-desktop");
     </script>
     <script type="text/javascript" src="../js/main.js"></script>
+    <style>
+    .btn {
+        border: 2px solid #ccc;
+        display: block;
+        width: 400px;
+        text-align: center;
+        font-size: 20px;
+        font-family: microsoft yahei;
+        margin: 100px auto;
+        cursor: pointer;
+        padding: 20px;
+        color: #666;
+        text-decoration: none;
+    }
+    </style>
 </head>
 
 <body scroll="no" style="margin:0px; overflow:hidden">
     <input type="file" id="file" name="file" style="display: none;" />
-    <label for="file" id="fileLabel" style="
-    border: 2px solid #ccc;
-    display: block;
-    width: 400px;
-    text-align: center;
-    font-size: 20px;
-    font-family: microsoft yahei;
-    margin: 100px auto;
-    cursor: pointer;
-    padding: 20px;
-    color: #666;
-">点击选择文件</label>
+    <label for="file" id="fileLabel" class="btn">点击选择文件</label>
+    <a href="test.html" id="autoTest" target="_blank" class="btn">去试试自动对齐</a>
     <p id="preview" style="display: none;"></p>
 </body>
 

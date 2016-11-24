@@ -46,24 +46,39 @@ dorado.onInit(function() {
             var str = this.result.replace(/[\r\n\t]/g, " ");
             // str = str.replace(/\ \+/g, "");
             document.getElementById('preview').innerHTML = str;
-            var _json = JSON.parse(yasuo(1, str));
+            _json = JSON.parse(yasuo(1, str));
             document.getElementById('file').style.display = 'none';
             document.getElementById('fileLabel').style.display = 'none';
-            d(_json.module);
+            document.getElementById('autoTest').style.display = 'none';
+
+            
+            d(_json);
         };
         reader.readAsText(file);
     }
 
     var moduleData = {};
 
-    function d(module) {
-        var tabs = [];
-        for (var i = 0; i < module.length; i++) {
-            moduleData[module[i].modulename + '_data'] = module[i];
+    function d(_json) {
+        var tabs = [{
+            caption: 'main',
+            $type: 'Control',
+            control: {
+                $type: 'Container',
+                children: (function() {
+                    var af=[];
+                    var temp = createAutoForm(_json);
+                    if (temp) { af.push(temp); }
+                    return af;
+                })()
+            }
+        }];
+        for (var i = 0; i < _json.module.length; i++) {
+            moduleData[_json.module[i].modulename + '_data'] = _json.module[i];
 
             tabs.push({
-                caption: module[i].modulename,
-                id: module[i].modulename,
+                caption: _json.module[i].modulename,
+                id: _json.module[i].modulename,
                 $type: 'Control',
             });
         }
@@ -78,7 +93,7 @@ dorado.onInit(function() {
         });
 
         var models = $id('moduleTab').objects[0].get('tabs').items;
-        for (var i = 0; i < models.length; i++) {
+        for (var i = 1; i < models.length; i++) {
             var dataName = models[i].get('id') + '_data';
             var c = new dorado.widget.Container({
                 children: createAll(moduleData[dataName]),
@@ -97,7 +112,7 @@ dorado.onInit(function() {
                         height: 500,
                         children: [{
                             $type: 'TextArea',
-                            text: JSON.stringify(module),
+                            text: JSON.stringify(_json),
                             width: '100%',
                             height: '100%',
                         }]
@@ -130,7 +145,7 @@ dorado.onInit(function() {
                     value: data[item],
                     editor: {
                         // text: data[item],
-                        $type: data[item].length>50 ? 'TextArea' : 'TextEditor'
+                        $type: data[item].length > 50 ? 'TextArea' : 'TextEditor'
                     }
                 });
             }
@@ -148,7 +163,7 @@ dorado.onInit(function() {
         }
         return undefined
     }
-    
+
     function createAll(data, af) {
         if (!af) { af = [] }
         var temp = createAutoForm(data);
